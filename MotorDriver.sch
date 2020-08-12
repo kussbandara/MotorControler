@@ -6937,6 +6937,8 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="C54" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
 <part name="C55" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
 <part name="GND88" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND89" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="GND90" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9826,6 +9828,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND88" gate="1" x="172.72" y="-66.04" smashed="yes">
 <attribute name="VALUE" x="172.72" y="-66.294" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="GND89" gate="1" x="-2.54" y="53.34" smashed="yes">
+<attribute name="VALUE" x="-2.54" y="53.086" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -9946,6 +9951,12 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="GND88" gate="1" pin="GND"/>
 <wire x1="147.32" y1="-40.64" x2="172.72" y2="-40.64" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="-40.64" x2="172.72" y2="-63.5" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="A" pin="EPAD"/>
+<wire x1="-27.94" y1="78.74" x2="-2.54" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="78.74" x2="-2.54" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="GND89" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$20" class="0">
@@ -10443,6 +10454,9 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="SUPPLY4" gate="G$1" x="160.02" y="43.18" smashed="yes">
 <attribute name="VALUE" x="160.02" y="45.974" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="GND90" gate="1" x="22.86" y="22.86" smashed="yes">
+<attribute name="VALUE" x="22.86" y="22.606" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -10543,6 +10557,12 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="U8" gate="A" pin="GND"/>
 <wire x1="-81.28" y1="-63.5" x2="-83.82" y2="-63.5" width="0.1524" layer="91"/>
 <wire x1="-83.82" y1="-63.5" x2="-83.82" y2="-86.36" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U6" gate="A" pin="EPAD"/>
+<wire x1="0" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="48.26" x2="22.86" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="GND90" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$4" class="0">
