@@ -1736,14 +1736,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
 </package>
-<package name="CAP-PTH-2.54">
-<description>2 PTH spaced 0.1" apart</description>
-<wire x1="0" y1="0.635" x2="0" y2="-0.635" width="0.2032" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="0.7" diameter="1.651"/>
-<pad name="2" x="1.27" y="0" drill="0.7" diameter="1.651"/>
-<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-</package>
 <package name="0402">
 <description>&lt;p&gt;&lt;b&gt;Generic 1005 (0402) package&lt;/b&gt;&lt;/p&gt;
 &lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
@@ -1859,19 +1851,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <wire x1="2.59" y1="-1.45" x2="-2.59" y2="-1.45" width="0.0508" layer="39"/>
 <wire x1="-2.59" y1="-1.45" x2="-2.59" y2="1.45" width="0.0508" layer="39"/>
 </package>
-<package name="CAP-PTH-10MM">
-<description>2 PTH spaced 10mm apart</description>
-<wire x1="-0.5" y1="0.635" x2="-0.5" y2="0" width="0.2032" layer="21"/>
-<pad name="1" x="-5" y="0" drill="0.9" diameter="1.651"/>
-<pad name="2" x="5" y="0" drill="0.9" diameter="1.651"/>
-<text x="0" y="1" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
-<text x="0" y="-1" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
-<wire x1="-0.5" y1="0" x2="-0.5" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="0.635" x2="0.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="0" x2="0.5" y2="-0.635" width="0.2032" layer="21"/>
-<wire x1="-0.5" y1="0" x2="-3.5" y2="0" width="0.2032" layer="21"/>
-<wire x1="0.5" y1="0" x2="3.5" y2="0" width="0.2032" layer="21"/>
-</package>
 </packages>
 <symbols>
 <symbol name="CAP">
@@ -1886,39 +1865,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="22PF" prefix="C">
-<description>&lt;h3&gt;22pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-50V-5%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-07876"/>
-<attribute name="VALUE" value="22pF"/>
-</technology>
-</technologies>
-</device>
-<device name="-PTH-2.54MM-200V-5%" package="CAP-PTH-2.54">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09128"/>
-<attribute name="VALUE" value="22pF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="1.0UF" prefix="C">
 <description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -2157,41 +2103,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 <technology name="">
 <attribute name="PROD_ID" value="CAP-14259"/>
 <attribute name="VALUE" value="10uF"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="10NF" prefix="C">
-<description>&lt;h3&gt;0.01uF/10nF/10,000pF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;
-
-CAP-09321</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-PTH-10MM-10000V-1-%" package="CAP-PTH-10MM">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09321"/>
-<attribute name="VALUE" value="10nF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-50V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-00867"/>
-<attribute name="VALUE" value="10nF"/>
 </technology>
 </technologies>
 </device>
@@ -6801,10 +6712,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="A3L-LOC" device=""/>
 <part name="U1" library="ICE5LP1K-SG48ITR" deviceset="ICE5LP1K-SG48ITR" device=""/>
 <part name="X1" library="con-hirose" library_urn="urn:adsk.eagle:library:152" deviceset="MINI-USB-" device="UX60-MB-5S8" package3d_urn="urn:adsk.eagle:package:7264/1"/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
-<part name="C2" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="D1" library="SparkFun-LED" deviceset="LED" device="0603"/>
@@ -6986,10 +6897,10 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="GND74" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND75" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND76" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="C41" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
+<part name="C41" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="C42" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="100nF"/>
-<part name="C43" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="100nF"/>
-<part name="C46" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="100nF"/>
+<part name="C43" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C46" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND77" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R4" library="SparkFun-Resistors" deviceset="2.2KOHM" device="-0402-1/16W-1%" value="100"/>
 <part name="J8" library="con-lstb" library_urn="urn:adsk.eagle:library:162" deviceset="MA03-2" device="" package3d_urn="urn:adsk.eagle:package:8334/1"/>
@@ -6998,12 +6909,12 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="R11" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R28" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
 <part name="R29" library="SparkFun-Resistors" deviceset="10KOHM" device="-0603-1/10W-1%" value="10k"/>
-<part name="C44" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0603-25V-(+80/-20%)" value="0.1uF"/>
+<part name="C44" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND81" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND80" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="C45" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="10nF"/>
 <part name="C47" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="100nF"/>
-<part name="C48" library="SparkFun-Capacitors" deviceset="10NF" device="-0603-50V-10%" value="10nF"/>
+<part name="C48" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="U7" library="MIC5504-3.3YM5-TR" deviceset="MIC5504-3.3YM5-TR" device=""/>
 <part name="U8" library="MIC5365-1.2YC5" deviceset="MIC5365-1.2YC5-TR" device=""/>
 <part name="C49" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0603-16V-10%" value="1.0uF"/>
@@ -7072,7 +6983,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="RPI_5V"/>
 <part name="SUPPLY3" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="VCC_1_2V"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="3.3V" device="" value="VCC_1_2V"/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
+<part name="C20" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
 <part name="R32" library="SparkFun-Resistors" deviceset="100OHM" device="-0603-1/4W-5%" value="100"/>
@@ -7081,16 +6992,16 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="Y4" library="SparkFun-Clocks" deviceset="CRYSTAL-GROUNDED" device="SMD-3.2X2.5"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C53" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
+<part name="C53" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND83" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C29" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
+<part name="C29" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND84" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND85" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND86" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND87" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="C38" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
-<part name="C54" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
-<part name="C55" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value=""/>
+<part name="C38" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C54" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
+<part name="C55" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="GND88" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND89" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND90" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -7136,38 +7047,38 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <instance part="GND2" gate="1" x="307.34" y="210.82" smashed="yes">
 <attribute name="VALUE" x="304.8" y="208.28" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="D1" x="33.02" y="304.8" smashed="yes">
-<attribute name="NAME" x="29.591" y="300.228" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="34.925" y="300.228" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D1" gate="D1" x="33.02" y="289.56" smashed="yes">
+<attribute name="NAME" x="29.591" y="284.988" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="34.925" y="284.988" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="D2" gate="D1" x="22.86" y="304.8" smashed="yes">
-<attribute name="NAME" x="19.431" y="300.228" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="24.765" y="300.228" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D2" gate="D1" x="22.86" y="289.56" smashed="yes">
+<attribute name="NAME" x="19.431" y="284.988" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="24.765" y="284.988" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="D3" gate="D1" x="12.7" y="304.8" smashed="yes">
-<attribute name="NAME" x="9.271" y="300.228" size="1.778" layer="95" font="vector" rot="R90"/>
-<attribute name="VALUE" x="14.605" y="300.228" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
+<instance part="D3" gate="D1" x="12.7" y="289.56" smashed="yes">
+<attribute name="NAME" x="9.271" y="284.988" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="14.605" y="284.988" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="12.7" y="292.1" smashed="yes" rot="R90">
-<attribute name="NAME" x="11.176" y="292.1" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="14.224" y="292.1" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R1" gate="G$1" x="12.7" y="276.86" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.176" y="276.86" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="14.224" y="276.86" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R2" gate="G$1" x="22.86" y="294.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="21.336" y="294.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="24.384" y="294.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R2" gate="G$1" x="22.86" y="279.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="21.336" y="279.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="24.384" y="279.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R3" gate="G$1" x="33.02" y="294.64" smashed="yes" rot="R90">
-<attribute name="NAME" x="31.496" y="294.64" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="34.544" y="294.64" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R3" gate="G$1" x="33.02" y="279.4" smashed="yes" rot="R90">
+<attribute name="NAME" x="31.496" y="279.4" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="34.544" y="279.4" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND3" gate="1" x="12.7" y="281.94" smashed="yes">
-<attribute name="VALUE" x="10.16" y="279.4" size="1.778" layer="96"/>
+<instance part="GND3" gate="1" x="12.7" y="266.7" smashed="yes">
+<attribute name="VALUE" x="10.16" y="264.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND4" gate="1" x="22.86" y="281.94" smashed="yes">
-<attribute name="VALUE" x="20.32" y="279.4" size="1.778" layer="96"/>
+<instance part="GND4" gate="1" x="22.86" y="266.7" smashed="yes">
+<attribute name="VALUE" x="20.32" y="264.16" size="1.778" layer="96"/>
 </instance>
-<instance part="GND5" gate="1" x="33.02" y="281.94" smashed="yes">
-<attribute name="VALUE" x="30.48" y="279.4" size="1.778" layer="96"/>
+<instance part="GND5" gate="1" x="33.02" y="266.7" smashed="yes">
+<attribute name="VALUE" x="30.48" y="264.16" size="1.778" layer="96"/>
 </instance>
 <instance part="J17" gate="G$1" x="20.32" y="200.66" smashed="yes" rot="R180">
 <attribute name="VALUE" x="24.13" y="231.14" size="1.778" layer="96" rot="R180"/>
@@ -7325,17 +7236,17 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="12.7" y1="287.02" x2="12.7" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="271.78" x2="12.7" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R2" gate="G$1" pin="1"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="22.86" y1="289.56" x2="22.86" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="274.32" x2="22.86" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<wire x1="33.02" y1="289.56" x2="33.02" y2="284.48" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="274.32" x2="33.02" y2="269.24" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J17" gate="G$1" pin="6"/>
@@ -7474,7 +7385,7 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <segment>
 <pinref part="D3" gate="D1" pin="C"/>
 <pinref part="R1" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="297.18" x2="12.7" y2="299.72" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="281.94" x2="12.7" y2="284.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -7958,6 +7869,42 @@ This is the "KIT" version, which has limited top masking for improved ease of as
 <pinref part="IC3" gate="G$1" pin="PC14-OSC32_IN"/>
 <wire x1="116.84" y1="218.44" x2="109.22" y2="218.44" width="0.1524" layer="91"/>
 <label x="109.22" y="218.44" size="1.4224" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="LED1" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PD7"/>
+<wire x1="170.18" y1="259.08" x2="170.18" y2="264.16" width="0.1524" layer="91"/>
+<label x="170.18" y="264.16" size="1.4224" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D1" gate="D1" pin="A"/>
+<wire x1="33.02" y1="292.1" x2="33.02" y2="297.18" width="0.1524" layer="91"/>
+<label x="33.02" y="297.18" size="1.4224" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB3"/>
+<wire x1="167.64" y1="259.08" x2="167.64" y2="264.16" width="0.1524" layer="91"/>
+<label x="167.64" y="264.16" size="1.4224" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D2" gate="D1" pin="A"/>
+<wire x1="22.86" y1="292.1" x2="22.86" y2="297.18" width="0.1524" layer="91"/>
+<label x="22.86" y="297.18" size="1.4224" layer="95" rot="R90" xref="yes"/>
+</segment>
+</net>
+<net name="LED3" class="0">
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB4"/>
+<wire x1="165.1" y1="259.08" x2="165.1" y2="264.16" width="0.1524" layer="91"/>
+<label x="165.1" y="264.16" size="1.4224" layer="95" rot="R90" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D3" gate="D1" pin="A"/>
+<wire x1="12.7" y1="292.1" x2="12.7" y2="297.18" width="0.1524" layer="91"/>
+<label x="12.7" y="297.18" size="1.4224" layer="95" rot="R90" xref="yes"/>
 </segment>
 </net>
 </nets>
