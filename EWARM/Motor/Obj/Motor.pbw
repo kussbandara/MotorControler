@@ -102404,6 +102404,404 @@
     "scope": null
   },
   {
+    "ID": "c:stm32f0xx.h@1540@macro@__STM32F0xx_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0xx_H",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0xx_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@1757@macro@STM32F0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STM32F0",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "STM32F0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5724@macro@__STM32F0_DEVICE_VERSION_MAIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_MAIN",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_MAIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5801@macro@__STM32F0_DEVICE_VERSION_SUB1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_SUB1",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_SUB1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5878@macro@__STM32F0_DEVICE_VERSION_SUB2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_SUB2",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_SUB2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5955@macro@__STM32F0_DEVICE_VERSION_RC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_RC",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_RC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@6037@macro@__STM32F0_DEVICE_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FlagStatus",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FlagStatus@RESET",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RESET",
+        "location": {
+          "column": "3",
+          "line": "161",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "RESET",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FlagStatus@SET",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SET",
+        "location": {
+          "column": "3",
+          "line": "162",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "SET",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "159",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@FlagStatus",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FlagStatus",
+    "location": {
+      "column": "3",
+      "line": "163",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "FlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@T@ITStatus",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FlagStatus",
+    "location": {
+      "column": "15",
+      "line": "163",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "ITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FunctionalState",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FunctionalState@DISABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "DISABLE",
+        "location": {
+          "column": "3",
+          "line": "167",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "DISABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FunctionalState@ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ENABLE",
+        "location": {
+          "column": "3",
+          "line": "168",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "ENABLE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "165",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@FunctionalState",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FunctionalState",
+    "location": {
+      "column": "3",
+      "line": "169",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "FunctionalState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@7713@macro@IS_FUNCTIONAL_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FUNCTIONAL_STATE",
+    "location": {
+      "column": "9",
+      "line": "170",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "IS_FUNCTIONAL_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@ErrorStatus",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@ErrorStatus@SUCCESS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SUCCESS",
+        "location": {
+          "column": "3",
+          "line": "174",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "SUCCESS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ErrorStatus@ERROR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ERROR",
+        "location": {
+          "column": "3",
+          "line": "175",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "ERROR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "172",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@ErrorStatus",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum ErrorStatus",
+    "location": {
+      "column": "3",
+      "line": "176",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "ErrorStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@7940@macro@SET_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SET_BIT",
+    "location": {
+      "column": "9",
+      "line": "186",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "SET_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@7990@macro@CLEAR_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_BIT",
+    "location": {
+      "column": "9",
+      "line": "188",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "CLEAR_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8041@macro@READ_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "READ_BIT",
+    "location": {
+      "column": "9",
+      "line": "190",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "READ_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8090@macro@CLEAR_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_REG",
+    "location": {
+      "column": "9",
+      "line": "192",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "CLEAR_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8139@macro@WRITE_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WRITE_REG",
+    "location": {
+      "column": "9",
+      "line": "194",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "WRITE_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8188@macro@READ_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "READ_REG",
+    "location": {
+      "column": "9",
+      "line": "196",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "READ_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8229@macro@MODIFY_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODIFY_REG",
+    "location": {
+      "column": "9",
+      "line": "198",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "MODIFY_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm32f0xx_ll_spi.h@894@macro@STM32F0xx_LL_SPI_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -109018,6 +109416,20 @@
     "scope": null
   },
   {
+    "ID": "c:@F@ReadSerialNo",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint16_t ReadSerialNo(uint8_t)",
+    "location": {
+      "column": "10",
+      "line": "63",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "ReadSerialNo",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@F@SetMotorPWMValue",
     "What": "Function",
     "defdec": "Dec",
@@ -109046,6 +109458,20 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@F@SetServoPWMValue",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SetServoPWMValue(uint8_t, uint16_t)",
+    "location": {
+      "column": "13",
+      "line": "68",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "SetServoPWMValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
@@ -109060,13 +109486,27 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@3663@F@main@serialNo",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "serialNo",
+    "location": {
+      "column": "14",
+      "line": "126",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "serialNo",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@F@WriteFPGA",
     "What": "Function",
     "defdec": "Def",
     "display": "void WriteFPGA(uint8_t, uint16_t)",
     "location": {
       "column": "14",
-      "line": "137",
+      "line": "147",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "WriteFPGA",
@@ -109074,13 +109514,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3800@F@WriteFPGA@regValue",
+    "ID": "c:main.c@4164@F@WriteFPGA@regValue",
     "What": "Variable",
     "defdec": "Def",
     "display": "regValue",
     "location": {
       "column": "13",
-      "line": "139",
+      "line": "149",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "regValue",
@@ -109088,13 +109528,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3823@F@WriteFPGA@secondReg",
+    "ID": "c:main.c@4187@F@WriteFPGA@secondReg",
     "What": "Variable",
     "defdec": "Def",
     "display": "secondReg",
     "location": {
       "column": "13",
-      "line": "140",
+      "line": "150",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "secondReg",
@@ -109102,16 +109542,184 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3847@F@WriteFPGA@thirdReg",
+    "ID": "c:main.c@4211@F@WriteFPGA@thirdReg",
     "What": "Variable",
     "defdec": "Def",
     "display": "thirdReg",
     "location": {
       "column": "13",
-      "line": "141",
+      "line": "151",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "thirdReg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ReadFPGA",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint16_t ReadFPGA(uint16_t)",
+    "location": {
+      "column": "11",
+      "line": "177",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "ReadFPGA",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5266@F@ReadFPGA@readFirstBuffer",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "readFirstBuffer",
+    "location": {
+      "column": "13",
+      "line": "179",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "readFirstBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5296@F@ReadFPGA@readSecondBuffer",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "readSecondBuffer",
+    "location": {
+      "column": "13",
+      "line": "180",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "readSecondBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5327@F@ReadFPGA@readThirdBuffer",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "readThirdBuffer",
+    "location": {
+      "column": "13",
+      "line": "181",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "readThirdBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5357@F@ReadFPGA@secondThirdBuffer",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "secondThirdBuffer",
+    "location": {
+      "column": "14",
+      "line": "182",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "secondThirdBuffer",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5390@F@ReadFPGA@regValue",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "regValue",
+    "location": {
+      "column": "13",
+      "line": "183",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "regValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5413@F@ReadFPGA@regValue1",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "regValue1",
+    "location": {
+      "column": "13",
+      "line": "184",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "regValue1",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@5437@F@ReadFPGA@regValue2",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "regValue2",
+    "location": {
+      "column": "14",
+      "line": "185",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "regValue2",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ReadSerialNo",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint16_t ReadSerialNo(uint8_t)",
+    "location": {
+      "column": "10",
+      "line": "216",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "ReadSerialNo",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6562@F@ReadSerialNo@receivedBytes",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "receivedBytes",
+    "location": {
+      "column": "13",
+      "line": "217",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "receivedBytes",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@F@SetServoPWMValue",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void SetServoPWMValue(uint8_t, uint16_t)",
+    "location": {
+      "column": "13",
+      "line": "222",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "SetServoPWMValue",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@6736@F@SetServoPWMValue@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "9",
+      "line": "224",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
+    },
+    "name": "i",
     "origin": "project_file",
     "scope": null
   },
@@ -109122,7 +109730,7 @@
     "display": "void SetMotorPWMValue(uint8_t, uint8_t, uint16_t)",
     "location": {
       "column": "13",
-      "line": "191",
+      "line": "255",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SetMotorPWMValue",
@@ -109136,7 +109744,7 @@
     "display": "void SystemClock_Config(void)",
     "location": {
       "column": "6",
-      "line": "313",
+      "line": "377",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SystemClock_Config",
@@ -109150,7 +109758,7 @@
     "display": "void MX_SPI1_Init(void)",
     "location": {
       "column": "13",
-      "line": "352",
+      "line": "416",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_SPI1_Init",
@@ -109158,13 +109766,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9757@F@MX_SPI1_Init@SPI_InitStruct",
+    "ID": "c:main.c@11801@F@MX_SPI1_Init@SPI_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "SPI_InitStruct",
     "location": {
       "column": "22",
-      "line": "359",
+      "line": "423",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SPI_InitStruct",
@@ -109172,13 +109780,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@9803@F@MX_SPI1_Init@GPIO_InitStruct",
+    "ID": "c:main.c@11847@F@MX_SPI1_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "361",
+      "line": "425",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109192,7 +109800,7 @@
     "display": "void MX_SPI2_Init(void)",
     "location": {
       "column": "13",
-      "line": "434",
+      "line": "498",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_SPI2_Init",
@@ -109200,13 +109808,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@12545@F@MX_SPI2_Init@SPI_InitStruct",
+    "ID": "c:main.c@14589@F@MX_SPI2_Init@SPI_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "SPI_InitStruct",
     "location": {
       "column": "22",
-      "line": "441",
+      "line": "505",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SPI_InitStruct",
@@ -109214,13 +109822,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@12591@F@MX_SPI2_Init@GPIO_InitStruct",
+    "ID": "c:main.c@14635@F@MX_SPI2_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "443",
+      "line": "507",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109234,7 +109842,7 @@
     "display": "void MX_TIM1_Init(void)",
     "location": {
       "column": "13",
-      "line": "505",
+      "line": "569",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_TIM1_Init",
@@ -109242,13 +109850,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14874@F@MX_TIM1_Init@TIM_InitStruct",
+    "ID": "c:main.c@16918@F@MX_TIM1_Init@TIM_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_InitStruct",
     "location": {
       "column": "22",
-      "line": "513",
+      "line": "577",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_InitStruct",
@@ -109256,13 +109864,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14918@F@MX_TIM1_Init@TIM_OC_InitStruct",
+    "ID": "c:main.c@16962@F@MX_TIM1_Init@TIM_OC_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_OC_InitStruct",
     "location": {
       "column": "25",
-      "line": "514",
+      "line": "578",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_OC_InitStruct",
@@ -109270,13 +109878,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14970@F@MX_TIM1_Init@GPIO_InitStruct",
+    "ID": "c:main.c@17014@F@MX_TIM1_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "516",
+      "line": "580",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109290,7 +109898,7 @@
     "display": "void MX_TIM3_Init(void)",
     "location": {
       "column": "13",
-      "line": "630",
+      "line": "694",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_TIM3_Init",
@@ -109298,13 +109906,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@19234@F@MX_TIM3_Init@TIM_InitStruct",
+    "ID": "c:main.c@21278@F@MX_TIM3_Init@TIM_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_InitStruct",
     "location": {
       "column": "22",
-      "line": "637",
+      "line": "701",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_InitStruct",
@@ -109312,13 +109920,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@19278@F@MX_TIM3_Init@TIM_OC_InitStruct",
+    "ID": "c:main.c@21322@F@MX_TIM3_Init@TIM_OC_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_OC_InitStruct",
     "location": {
       "column": "25",
-      "line": "638",
+      "line": "702",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_OC_InitStruct",
@@ -109326,13 +109934,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@19330@F@MX_TIM3_Init@GPIO_InitStruct",
+    "ID": "c:main.c@21374@F@MX_TIM3_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "640",
+      "line": "704",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109346,7 +109954,7 @@
     "display": "void MX_GPIO_Init(void)",
     "location": {
       "column": "13",
-      "line": "750",
+      "line": "814",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_GPIO_Init",
@@ -109354,13 +109962,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@23378@F@MX_GPIO_Init@GPIO_InitStruct",
+    "ID": "c:main.c@25422@F@MX_GPIO_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "752",
+      "line": "816",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109374,7 +109982,7 @@
     "display": "void Error_Handler(void)",
     "location": {
       "column": "6",
-      "line": "993",
+      "line": "1057",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "Error_Handler",
@@ -115160,6 +115768,1240 @@
     "scope": null
   },
   {
+    "ID": "c:stm32f0xx_ll_exti.h@899@macro@__STM32F0xx_LL_EXTI_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0xx_LL_EXTI_H",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "__STM32F0xx_LL_EXTI_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@LL_EXTI_InitTypeDef",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@Line_0_31",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Line_0_31",
+        "location": {
+          "column": "12",
+          "line": "61",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+        },
+        "name": "Line_0_31",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
+      },
+      {
+        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@LineCommand",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "LineCommand",
+        "location": {
+          "column": "19",
+          "line": "64",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+        },
+        "name": "LineCommand",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
+      },
+      {
+        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@Mode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Mode",
+        "location": {
+          "column": "11",
+          "line": "67",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+        },
+        "name": "Mode",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
+      },
+      {
+        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@Trigger",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "Trigger",
+        "location": {
+          "column": "11",
+          "line": "70",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+        },
+        "name": "Trigger",
+        "origin": "user_include",
+        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
+      }
+    ],
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@LL_EXTI_InitTypeDef",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "struct LL_EXTI_InitTypeDef",
+    "location": {
+      "column": "3",
+      "line": "72",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_InitTypeDef",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@2969@macro@LL_EXTI_LINE_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_0",
+    "location": {
+      "column": "9",
+      "line": "87",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3056@macro@LL_EXTI_LINE_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_1",
+    "location": {
+      "column": "9",
+      "line": "88",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3143@macro@LL_EXTI_LINE_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_2",
+    "location": {
+      "column": "9",
+      "line": "89",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3230@macro@LL_EXTI_LINE_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_3",
+    "location": {
+      "column": "9",
+      "line": "90",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_3",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3317@macro@LL_EXTI_LINE_4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_4",
+    "location": {
+      "column": "9",
+      "line": "91",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_4",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3404@macro@LL_EXTI_LINE_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_5",
+    "location": {
+      "column": "9",
+      "line": "92",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_5",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3491@macro@LL_EXTI_LINE_6",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_6",
+    "location": {
+      "column": "9",
+      "line": "93",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_6",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3578@macro@LL_EXTI_LINE_7",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_7",
+    "location": {
+      "column": "9",
+      "line": "94",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_7",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3665@macro@LL_EXTI_LINE_8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_8",
+    "location": {
+      "column": "9",
+      "line": "95",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3752@macro@LL_EXTI_LINE_9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_9",
+    "location": {
+      "column": "9",
+      "line": "96",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_9",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3839@macro@LL_EXTI_LINE_10",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_10",
+    "location": {
+      "column": "9",
+      "line": "97",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_10",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@3927@macro@LL_EXTI_LINE_11",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_11",
+    "location": {
+      "column": "9",
+      "line": "98",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_11",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4015@macro@LL_EXTI_LINE_12",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_12",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_12",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4103@macro@LL_EXTI_LINE_13",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_13",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_13",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4191@macro@LL_EXTI_LINE_14",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_14",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_14",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4279@macro@LL_EXTI_LINE_15",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_15",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_15",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4395@macro@LL_EXTI_LINE_16",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_16",
+    "location": {
+      "column": "9",
+      "line": "104",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_16",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4491@macro@LL_EXTI_LINE_17",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_17",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_17",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4703@macro@LL_EXTI_LINE_19",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_19",
+    "location": {
+      "column": "9",
+      "line": "110",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_19",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4819@macro@LL_EXTI_LINE_20",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_20",
+    "location": {
+      "column": "9",
+      "line": "112",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_20",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@4943@macro@LL_EXTI_LINE_21",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_21",
+    "location": {
+      "column": "9",
+      "line": "115",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_21",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@5067@macro@LL_EXTI_LINE_22",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_22",
+    "location": {
+      "column": "9",
+      "line": "118",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_22",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@5163@macro@LL_EXTI_LINE_23",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_23",
+    "location": {
+      "column": "9",
+      "line": "120",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_23",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@5403@macro@LL_EXTI_LINE_25",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_25",
+    "location": {
+      "column": "9",
+      "line": "125",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_25",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@5527@macro@LL_EXTI_LINE_26",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_26",
+    "location": {
+      "column": "9",
+      "line": "128",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_26",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@5651@macro@LL_EXTI_LINE_27",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_27",
+    "location": {
+      "column": "9",
+      "line": "131",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_27",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6147@macro@LL_EXTI_LINE_31",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_31",
+    "location": {
+      "column": "9",
+      "line": "143",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6243@macro@LL_EXTI_LINE_ALL_0_31",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_ALL_0_31",
+    "location": {
+      "column": "9",
+      "line": "145",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_ALL_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6348@macro@LL_EXTI_LINE_ALL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_ALL",
+    "location": {
+      "column": "9",
+      "line": "148",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_ALL",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6464@macro@LL_EXTI_LINE_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_LINE_NONE",
+    "location": {
+      "column": "9",
+      "line": "151",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_LINE_NONE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6683@macro@LL_EXTI_MODE_IT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_MODE_IT",
+    "location": {
+      "column": "9",
+      "line": "162",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_MODE_IT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6764@macro@LL_EXTI_MODE_EVENT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_MODE_EVENT",
+    "location": {
+      "column": "9",
+      "line": "163",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_MODE_EVENT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@6841@macro@LL_EXTI_MODE_IT_EVENT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_MODE_IT_EVENT",
+    "location": {
+      "column": "9",
+      "line": "164",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_MODE_IT_EVENT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@7012@macro@LL_EXTI_TRIGGER_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_TRIGGER_NONE",
+    "location": {
+      "column": "9",
+      "line": "172",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_TRIGGER_NONE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@7094@macro@LL_EXTI_TRIGGER_RISING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_TRIGGER_RISING",
+    "location": {
+      "column": "9",
+      "line": "173",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_TRIGGER_RISING",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@7180@macro@LL_EXTI_TRIGGER_FALLING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_TRIGGER_FALLING",
+    "location": {
+      "column": "9",
+      "line": "174",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_TRIGGER_FALLING",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@7267@macro@LL_EXTI_TRIGGER_RISING_FALLING",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_TRIGGER_RISING_FALLING",
+    "location": {
+      "column": "9",
+      "line": "175",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_TRIGGER_RISING_FALLING",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@7870@macro@LL_EXTI_WriteReg",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_WriteReg",
+    "location": {
+      "column": "9",
+      "line": "204",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_WriteReg",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@8079@macro@LL_EXTI_ReadReg",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_EXTI_ReadReg",
+    "location": {
+      "column": "9",
+      "line": "211",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_ReadReg",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableIT_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_EnableIT_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "274",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_EnableIT_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableIT_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_DisableIT_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "322",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_DisableIT_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledIT_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_EXTI_IsEnabledIT_0_31(uint32_t)",
+    "location": {
+      "column": "26",
+      "line": "371",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_IsEnabledIT_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableEvent_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_EnableEvent_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "425",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_EnableEvent_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableEvent_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_DisableEvent_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "472",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_DisableEvent_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledEvent_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_EXTI_IsEnabledEvent_0_31(uint32_t)",
+    "location": {
+      "column": "26",
+      "line": "518",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_IsEnabledEvent_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableRisingTrig_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_EnableRisingTrig_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "572",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_EnableRisingTrig_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableRisingTrig_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_DisableRisingTrig_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "618",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_DisableRisingTrig_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledRisingTrig_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_EXTI_IsEnabledRisingTrig_0_31(uint32_t)",
+    "location": {
+      "column": "26",
+      "line": "657",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_IsEnabledRisingTrig_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableFallingTrig_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_EnableFallingTrig_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "710",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_EnableFallingTrig_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableFallingTrig_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_DisableFallingTrig_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "754",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_DisableFallingTrig_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledFallingTrig_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_EXTI_IsEnabledFallingTrig_0_31(uint32_t)",
+    "location": {
+      "column": "26",
+      "line": "792",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_IsEnabledFallingTrig_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_GenerateSWI_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_GenerateSWI_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "843",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_GenerateSWI_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsActiveFlag_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_EXTI_IsActiveFlag_0_31(uint32_t)",
+    "location": {
+      "column": "26",
+      "line": "891",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_IsActiveFlag_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_ReadFlag_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_EXTI_ReadFlag_0_31(uint32_t)",
+    "location": {
+      "column": "26",
+      "line": "931",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_ReadFlag_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_ClearFlag_0_31",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_EXTI_ClearFlag_0_31(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "971",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_ClearFlag_0_31",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LL_EXTI_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t LL_EXTI_Init(LL_EXTI_InitTypeDef *)",
+    "location": {
+      "column": "10",
+      "line": "986",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LL_EXTI_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t LL_EXTI_Init(LL_EXTI_InitTypeDef *)",
+    "location": {
+      "column": "10",
+      "line": "986",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_Init",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LL_EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t LL_EXTI_DeInit(void)",
+    "location": {
+      "column": "10",
+      "line": "987",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LL_EXTI_DeInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32_t LL_EXTI_DeInit(void)",
+    "location": {
+      "column": "10",
+      "line": "987",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_DeInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LL_EXTI_StructInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LL_EXTI_StructInit(LL_EXTI_InitTypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "988",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_StructInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@LL_EXTI_StructInit",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void LL_EXTI_StructInit(LL_EXTI_InitTypeDef *)",
+    "location": {
+      "column": "6",
+      "line": "988",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
+    },
+    "name": "LL_EXTI_StructInit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@1479@macro@__STM32F0xx_LL_CORTEX_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0xx_LL_CORTEX_H",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "__STM32F0xx_LL_CORTEX_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@2429@macro@LL_SYSTICK_CLKSOURCE_HCLK_DIV8",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_SYSTICK_CLKSOURCE_HCLK_DIV8",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_CLKSOURCE_HCLK_DIV8",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@2565@macro@LL_SYSTICK_CLKSOURCE_HCLK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "LL_SYSTICK_CLKSOURCE_HCLK",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_CLKSOURCE_HCLK",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_IsActiveCounterFlag",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_SYSTICK_IsActiveCounterFlag(void)",
+    "location": {
+      "column": "26",
+      "line": "95",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_IsActiveCounterFlag",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_SetClkSource",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_SYSTICK_SetClkSource(uint32_t)",
+    "location": {
+      "column": "22",
+      "line": "108",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_SetClkSource",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_GetClkSource",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_SYSTICK_GetClkSource(void)",
+    "location": {
+      "column": "26",
+      "line": "127",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_GetClkSource",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_EnableIT",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_SYSTICK_EnableIT(void)",
+    "location": {
+      "column": "22",
+      "line": "137",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_EnableIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_DisableIT",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_SYSTICK_DisableIT(void)",
+    "location": {
+      "column": "22",
+      "line": "147",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_DisableIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_IsEnabledIT",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_SYSTICK_IsEnabledIT(void)",
+    "location": {
+      "column": "26",
+      "line": "157",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_SYSTICK_IsEnabledIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableSleep",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_LPM_EnableSleep(void)",
+    "location": {
+      "column": "22",
+      "line": "175",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_LPM_EnableSleep",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableDeepSleep",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_LPM_EnableDeepSleep(void)",
+    "location": {
+      "column": "22",
+      "line": "186",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_LPM_EnableDeepSleep",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableSleepOnExit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_LPM_EnableSleepOnExit(void)",
+    "location": {
+      "column": "22",
+      "line": "199",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_LPM_EnableSleepOnExit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_DisableSleepOnExit",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_LPM_DisableSleepOnExit(void)",
+    "location": {
+      "column": "22",
+      "line": "210",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_LPM_DisableSleepOnExit",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableEventOnPend",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_LPM_EnableEventOnPend(void)",
+    "location": {
+      "column": "22",
+      "line": "222",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_LPM_EnableEventOnPend",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_DisableEventOnPend",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void LL_LPM_DisableEventOnPend(void)",
+    "location": {
+      "column": "22",
+      "line": "234",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_LPM_DisableEventOnPend",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetImplementer",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_CPUID_GetImplementer(void)",
+    "location": {
+      "column": "26",
+      "line": "253",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_CPUID_GetImplementer",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetVariant",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_CPUID_GetVariant(void)",
+    "location": {
+      "column": "26",
+      "line": "263",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_CPUID_GetVariant",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetArchitecture",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_CPUID_GetArchitecture(void)",
+    "location": {
+      "column": "26",
+      "line": "273",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_CPUID_GetArchitecture",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetParNo",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_CPUID_GetParNo(void)",
+    "location": {
+      "column": "26",
+      "line": "283",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_CPUID_GetParNo",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetRevision",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32_t LL_CPUID_GetRevision(void)",
+    "location": {
+      "column": "26",
+      "line": "293",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
+    },
+    "name": "LL_CPUID_GetRevision",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
     "ID": "c:stm32f0xx_ll_system.h@1408@macro@__STM32F0xx_LL_SYSTEM_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -116640,1638 +118482,6 @@
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_system.h"
     },
     "name": "LL_FLASH_IsPrefetchEnabled",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@899@macro@__STM32F0xx_LL_EXTI_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0xx_LL_EXTI_H",
-    "location": {
-      "column": "9",
-      "line": "22",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "__STM32F0xx_LL_EXTI_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@SA@LL_EXTI_InitTypeDef",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "58",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "members": [
-      {
-        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@Line_0_31",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "Line_0_31",
-        "location": {
-          "column": "12",
-          "line": "61",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-        },
-        "name": "Line_0_31",
-        "origin": "user_include",
-        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
-      },
-      {
-        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@LineCommand",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "LineCommand",
-        "location": {
-          "column": "19",
-          "line": "64",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-        },
-        "name": "LineCommand",
-        "origin": "user_include",
-        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
-      },
-      {
-        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@Mode",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "Mode",
-        "location": {
-          "column": "11",
-          "line": "67",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-        },
-        "name": "Mode",
-        "origin": "user_include",
-        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
-      },
-      {
-        "ID": "c:@SA@LL_EXTI_InitTypeDef@FI@Trigger",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "Trigger",
-        "location": {
-          "column": "11",
-          "line": "70",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-        },
-        "name": "Trigger",
-        "origin": "user_include",
-        "scope": "_anonymous_stm32f0xx_ll_exti_h_58_9"
-      }
-    ],
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@LL_EXTI_InitTypeDef",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "struct LL_EXTI_InitTypeDef",
-    "location": {
-      "column": "3",
-      "line": "72",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_InitTypeDef",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@2969@macro@LL_EXTI_LINE_0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_0",
-    "location": {
-      "column": "9",
-      "line": "87",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3056@macro@LL_EXTI_LINE_1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_1",
-    "location": {
-      "column": "9",
-      "line": "88",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3143@macro@LL_EXTI_LINE_2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_2",
-    "location": {
-      "column": "9",
-      "line": "89",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3230@macro@LL_EXTI_LINE_3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_3",
-    "location": {
-      "column": "9",
-      "line": "90",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_3",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3317@macro@LL_EXTI_LINE_4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_4",
-    "location": {
-      "column": "9",
-      "line": "91",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_4",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3404@macro@LL_EXTI_LINE_5",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_5",
-    "location": {
-      "column": "9",
-      "line": "92",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_5",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3491@macro@LL_EXTI_LINE_6",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_6",
-    "location": {
-      "column": "9",
-      "line": "93",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_6",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3578@macro@LL_EXTI_LINE_7",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_7",
-    "location": {
-      "column": "9",
-      "line": "94",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_7",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3665@macro@LL_EXTI_LINE_8",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_8",
-    "location": {
-      "column": "9",
-      "line": "95",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3752@macro@LL_EXTI_LINE_9",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_9",
-    "location": {
-      "column": "9",
-      "line": "96",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_9",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3839@macro@LL_EXTI_LINE_10",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_10",
-    "location": {
-      "column": "9",
-      "line": "97",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_10",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@3927@macro@LL_EXTI_LINE_11",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_11",
-    "location": {
-      "column": "9",
-      "line": "98",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_11",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4015@macro@LL_EXTI_LINE_12",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_12",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_12",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4103@macro@LL_EXTI_LINE_13",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_13",
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_13",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4191@macro@LL_EXTI_LINE_14",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_14",
-    "location": {
-      "column": "9",
-      "line": "101",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_14",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4279@macro@LL_EXTI_LINE_15",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_15",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_15",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4395@macro@LL_EXTI_LINE_16",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_16",
-    "location": {
-      "column": "9",
-      "line": "104",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_16",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4491@macro@LL_EXTI_LINE_17",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_17",
-    "location": {
-      "column": "9",
-      "line": "106",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_17",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4703@macro@LL_EXTI_LINE_19",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_19",
-    "location": {
-      "column": "9",
-      "line": "110",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_19",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4819@macro@LL_EXTI_LINE_20",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_20",
-    "location": {
-      "column": "9",
-      "line": "112",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_20",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@4943@macro@LL_EXTI_LINE_21",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_21",
-    "location": {
-      "column": "9",
-      "line": "115",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_21",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@5067@macro@LL_EXTI_LINE_22",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_22",
-    "location": {
-      "column": "9",
-      "line": "118",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_22",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@5163@macro@LL_EXTI_LINE_23",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_23",
-    "location": {
-      "column": "9",
-      "line": "120",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_23",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@5403@macro@LL_EXTI_LINE_25",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_25",
-    "location": {
-      "column": "9",
-      "line": "125",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_25",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@5527@macro@LL_EXTI_LINE_26",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_26",
-    "location": {
-      "column": "9",
-      "line": "128",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_26",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@5651@macro@LL_EXTI_LINE_27",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_27",
-    "location": {
-      "column": "9",
-      "line": "131",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_27",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6147@macro@LL_EXTI_LINE_31",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_31",
-    "location": {
-      "column": "9",
-      "line": "143",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6243@macro@LL_EXTI_LINE_ALL_0_31",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_ALL_0_31",
-    "location": {
-      "column": "9",
-      "line": "145",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_ALL_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6348@macro@LL_EXTI_LINE_ALL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_ALL",
-    "location": {
-      "column": "9",
-      "line": "148",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_ALL",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6464@macro@LL_EXTI_LINE_NONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_LINE_NONE",
-    "location": {
-      "column": "9",
-      "line": "151",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_LINE_NONE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6683@macro@LL_EXTI_MODE_IT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_MODE_IT",
-    "location": {
-      "column": "9",
-      "line": "162",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_MODE_IT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6764@macro@LL_EXTI_MODE_EVENT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_MODE_EVENT",
-    "location": {
-      "column": "9",
-      "line": "163",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_MODE_EVENT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@6841@macro@LL_EXTI_MODE_IT_EVENT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_MODE_IT_EVENT",
-    "location": {
-      "column": "9",
-      "line": "164",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_MODE_IT_EVENT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@7012@macro@LL_EXTI_TRIGGER_NONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_TRIGGER_NONE",
-    "location": {
-      "column": "9",
-      "line": "172",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_TRIGGER_NONE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@7094@macro@LL_EXTI_TRIGGER_RISING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_TRIGGER_RISING",
-    "location": {
-      "column": "9",
-      "line": "173",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_TRIGGER_RISING",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@7180@macro@LL_EXTI_TRIGGER_FALLING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_TRIGGER_FALLING",
-    "location": {
-      "column": "9",
-      "line": "174",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_TRIGGER_FALLING",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@7267@macro@LL_EXTI_TRIGGER_RISING_FALLING",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_TRIGGER_RISING_FALLING",
-    "location": {
-      "column": "9",
-      "line": "175",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_TRIGGER_RISING_FALLING",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@7870@macro@LL_EXTI_WriteReg",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_WriteReg",
-    "location": {
-      "column": "9",
-      "line": "204",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_WriteReg",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@8079@macro@LL_EXTI_ReadReg",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_EXTI_ReadReg",
-    "location": {
-      "column": "9",
-      "line": "211",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_ReadReg",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableIT_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_EnableIT_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "274",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_EnableIT_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableIT_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_DisableIT_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "322",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_DisableIT_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledIT_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_EXTI_IsEnabledIT_0_31(uint32_t)",
-    "location": {
-      "column": "26",
-      "line": "371",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_IsEnabledIT_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableEvent_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_EnableEvent_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "425",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_EnableEvent_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableEvent_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_DisableEvent_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "472",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_DisableEvent_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledEvent_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_EXTI_IsEnabledEvent_0_31(uint32_t)",
-    "location": {
-      "column": "26",
-      "line": "518",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_IsEnabledEvent_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableRisingTrig_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_EnableRisingTrig_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "572",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_EnableRisingTrig_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableRisingTrig_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_DisableRisingTrig_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "618",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_DisableRisingTrig_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledRisingTrig_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_EXTI_IsEnabledRisingTrig_0_31(uint32_t)",
-    "location": {
-      "column": "26",
-      "line": "657",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_IsEnabledRisingTrig_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_EnableFallingTrig_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_EnableFallingTrig_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "710",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_EnableFallingTrig_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_DisableFallingTrig_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_DisableFallingTrig_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "754",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_DisableFallingTrig_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsEnabledFallingTrig_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_EXTI_IsEnabledFallingTrig_0_31(uint32_t)",
-    "location": {
-      "column": "26",
-      "line": "792",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_IsEnabledFallingTrig_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_GenerateSWI_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_GenerateSWI_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "843",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_GenerateSWI_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_IsActiveFlag_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_EXTI_IsActiveFlag_0_31(uint32_t)",
-    "location": {
-      "column": "26",
-      "line": "891",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_IsActiveFlag_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_ReadFlag_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_EXTI_ReadFlag_0_31(uint32_t)",
-    "location": {
-      "column": "26",
-      "line": "931",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_ReadFlag_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_exti.h@F@LL_EXTI_ClearFlag_0_31",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_EXTI_ClearFlag_0_31(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "971",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_ClearFlag_0_31",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LL_EXTI_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t LL_EXTI_Init(LL_EXTI_InitTypeDef *)",
-    "location": {
-      "column": "10",
-      "line": "986",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LL_EXTI_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t LL_EXTI_Init(LL_EXTI_InitTypeDef *)",
-    "location": {
-      "column": "10",
-      "line": "986",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_Init",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LL_EXTI_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t LL_EXTI_DeInit(void)",
-    "location": {
-      "column": "10",
-      "line": "987",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LL_EXTI_DeInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint32_t LL_EXTI_DeInit(void)",
-    "location": {
-      "column": "10",
-      "line": "987",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_DeInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LL_EXTI_StructInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LL_EXTI_StructInit(LL_EXTI_InitTypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "988",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_StructInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@LL_EXTI_StructInit",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void LL_EXTI_StructInit(LL_EXTI_InitTypeDef *)",
-    "location": {
-      "column": "6",
-      "line": "988",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_exti.h"
-    },
-    "name": "LL_EXTI_StructInit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@1479@macro@__STM32F0xx_LL_CORTEX_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0xx_LL_CORTEX_H",
-    "location": {
-      "column": "9",
-      "line": "35",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "__STM32F0xx_LL_CORTEX_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@2429@macro@LL_SYSTICK_CLKSOURCE_HCLK_DIV8",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_SYSTICK_CLKSOURCE_HCLK_DIV8",
-    "location": {
-      "column": "9",
-      "line": "68",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_CLKSOURCE_HCLK_DIV8",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@2565@macro@LL_SYSTICK_CLKSOURCE_HCLK",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "LL_SYSTICK_CLKSOURCE_HCLK",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_CLKSOURCE_HCLK",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_IsActiveCounterFlag",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_SYSTICK_IsActiveCounterFlag(void)",
-    "location": {
-      "column": "26",
-      "line": "95",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_IsActiveCounterFlag",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_SetClkSource",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_SYSTICK_SetClkSource(uint32_t)",
-    "location": {
-      "column": "22",
-      "line": "108",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_SetClkSource",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_GetClkSource",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_SYSTICK_GetClkSource(void)",
-    "location": {
-      "column": "26",
-      "line": "127",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_GetClkSource",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_EnableIT",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_SYSTICK_EnableIT(void)",
-    "location": {
-      "column": "22",
-      "line": "137",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_EnableIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_DisableIT",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_SYSTICK_DisableIT(void)",
-    "location": {
-      "column": "22",
-      "line": "147",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_DisableIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_SYSTICK_IsEnabledIT",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_SYSTICK_IsEnabledIT(void)",
-    "location": {
-      "column": "26",
-      "line": "157",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_SYSTICK_IsEnabledIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableSleep",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_LPM_EnableSleep(void)",
-    "location": {
-      "column": "22",
-      "line": "175",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_LPM_EnableSleep",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableDeepSleep",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_LPM_EnableDeepSleep(void)",
-    "location": {
-      "column": "22",
-      "line": "186",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_LPM_EnableDeepSleep",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableSleepOnExit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_LPM_EnableSleepOnExit(void)",
-    "location": {
-      "column": "22",
-      "line": "199",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_LPM_EnableSleepOnExit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_DisableSleepOnExit",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_LPM_DisableSleepOnExit(void)",
-    "location": {
-      "column": "22",
-      "line": "210",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_LPM_DisableSleepOnExit",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_EnableEventOnPend",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_LPM_EnableEventOnPend(void)",
-    "location": {
-      "column": "22",
-      "line": "222",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_LPM_EnableEventOnPend",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_LPM_DisableEventOnPend",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void LL_LPM_DisableEventOnPend(void)",
-    "location": {
-      "column": "22",
-      "line": "234",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_LPM_DisableEventOnPend",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetImplementer",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_CPUID_GetImplementer(void)",
-    "location": {
-      "column": "26",
-      "line": "253",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_CPUID_GetImplementer",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetVariant",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_CPUID_GetVariant(void)",
-    "location": {
-      "column": "26",
-      "line": "263",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_CPUID_GetVariant",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetArchitecture",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_CPUID_GetArchitecture(void)",
-    "location": {
-      "column": "26",
-      "line": "273",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_CPUID_GetArchitecture",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetParNo",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_CPUID_GetParNo(void)",
-    "location": {
-      "column": "26",
-      "line": "283",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_CPUID_GetParNo",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx_ll_cortex.h@F@LL_CPUID_GetRevision",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "uint32_t LL_CPUID_GetRevision(void)",
-    "location": {
-      "column": "26",
-      "line": "293",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
-    },
-    "name": "LL_CPUID_GetRevision",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@1540@macro@__STM32F0xx_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0xx_H",
-    "location": {
-      "column": "9",
-      "line": "39",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0xx_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@1757@macro@STM32F0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STM32F0",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "STM32F0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5724@macro@__STM32F0_DEVICE_VERSION_MAIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_MAIN",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_MAIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5801@macro@__STM32F0_DEVICE_VERSION_SUB1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_SUB1",
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_SUB1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5878@macro@__STM32F0_DEVICE_VERSION_SUB2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_SUB2",
-    "location": {
-      "column": "9",
-      "line": "101",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_SUB2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5955@macro@__STM32F0_DEVICE_VERSION_RC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_RC",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_RC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@6037@macro@__STM32F0_DEVICE_VERSION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION",
-    "location": {
-      "column": "9",
-      "line": "103",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FlagStatus",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FlagStatus@RESET",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RESET",
-        "location": {
-          "column": "3",
-          "line": "161",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "RESET",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FlagStatus@SET",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SET",
-        "location": {
-          "column": "3",
-          "line": "162",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "SET",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "159",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@FlagStatus",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FlagStatus",
-    "location": {
-      "column": "3",
-      "line": "163",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "FlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@T@ITStatus",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FlagStatus",
-    "location": {
-      "column": "15",
-      "line": "163",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "ITStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FunctionalState",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FunctionalState@DISABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "DISABLE",
-        "location": {
-          "column": "3",
-          "line": "167",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "DISABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FunctionalState@ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ENABLE",
-        "location": {
-          "column": "3",
-          "line": "168",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "ENABLE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "165",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@FunctionalState",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FunctionalState",
-    "location": {
-      "column": "3",
-      "line": "169",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "FunctionalState",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@7713@macro@IS_FUNCTIONAL_STATE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FUNCTIONAL_STATE",
-    "location": {
-      "column": "9",
-      "line": "170",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "IS_FUNCTIONAL_STATE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@ErrorStatus",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@ErrorStatus@SUCCESS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SUCCESS",
-        "location": {
-          "column": "3",
-          "line": "174",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "SUCCESS",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ErrorStatus@ERROR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ERROR",
-        "location": {
-          "column": "3",
-          "line": "175",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "ERROR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "172",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@ErrorStatus",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum ErrorStatus",
-    "location": {
-      "column": "3",
-      "line": "176",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "ErrorStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@7940@macro@SET_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SET_BIT",
-    "location": {
-      "column": "9",
-      "line": "186",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "SET_BIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@7990@macro@CLEAR_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLEAR_BIT",
-    "location": {
-      "column": "9",
-      "line": "188",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "CLEAR_BIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8041@macro@READ_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "READ_BIT",
-    "location": {
-      "column": "9",
-      "line": "190",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "READ_BIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8090@macro@CLEAR_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLEAR_REG",
-    "location": {
-      "column": "9",
-      "line": "192",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "CLEAR_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8139@macro@WRITE_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WRITE_REG",
-    "location": {
-      "column": "9",
-      "line": "194",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "WRITE_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8188@macro@READ_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "READ_REG",
-    "location": {
-      "column": "9",
-      "line": "196",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "READ_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8229@macro@MODIFY_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "MODIFY_REG",
-    "location": {
-      "column": "9",
-      "line": "198",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "MODIFY_REG",
     "origin": "user_include",
     "scope": null
   },

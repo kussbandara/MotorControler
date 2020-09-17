@@ -60,12 +60,12 @@ static void MX_TIM1_Init(void);
 static void MX_TIM3_Init(void);
 static void MX_SPI1_Init(void);
 static void MX_SPI2_Init(void);
-
+uint16_t ReadSerialNo(uint8_t);
 /* USER CODE BEGIN PFP */
 static void SetMotorPWMValue(uint8_t motorNo,uint8_t dir, uint16_t value );
 //static void WriteFPGA(void);
 static void WriteFPGA(uint8_t , uint16_t);
-
+static void SetServoPWMValue(uint8_t, uint16_t);
 
 /* USER CODE END PFP */
 
@@ -121,7 +121,17 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   
    //SetMotorPWMValue(0,1,125);
-    WriteFPGA(0x00,400);
+    
+   
+    uint16_t serialNo = ReadSerialNo(0x0F);
+    SetServoPWMValue(0,6000);
+    SetServoPWMValue(1,20000);
+    SetServoPWMValue(2,15000);
+    SetServoPWMValue(3,10000);
+    SetServoPWMValue(4,15000);
+    SetServoPWMValue(5,35000);
+    SetServoPWMValue(6,15000);
+    SetServoPWMValue(7,20000);
   while (1)
   {
     
@@ -164,9 +174,63 @@ int main(void)
    
   }
 
+ uint16_t ReadFPGA(uint16_t reg){
+    
+    uint8_t readFirstBuffer;
+    uint8_t readSecondBuffer;
+    uint8_t readThirdBuffer;
+    uint16_t secondThirdBuffer;
+    uint8_t regValue;
+    uint8_t regValue1;
+    uint16_t regValue2;
+    
+    reg<<=3;
+    regValue = reg & 0xff; 
+    
+    GPIOB -> BRR= LL_GPIO_PIN_0;
+    
+    while (LL_SPI_IsActiveFlag_TXE(SPI1) == RESET); //wait until buffer is empty 
+    LL_SPI_TransmitData8(SPI1, regValue);
+    while(LL_SPI_IsActiveFlag_RXNE(SPI1)==RESET);// //wait until buffer is full 
+    LL_SPI_ReceiveData8(SPI1);
+    while (LL_SPI_IsActiveFlag_TXE(SPI1) == RESET); //wait until buffer is empty 
+    LL_SPI_TransmitData8(SPI1, 0x00);
+    while(LL_SPI_IsActiveFlag_RXNE(SPI1)==RESET);// //wait until buffer is full 
+    readSecondBuffer=LL_SPI_ReceiveData8(SPI1);
+    while (LL_SPI_IsActiveFlag_TXE(SPI1) == RESET); //wait until buffer is empty 
+    LL_SPI_TransmitData8(SPI1, 0x00);
+    while(LL_SPI_IsActiveFlag_RXNE(SPI1)==RESET);// //wait until buffer is full 
+    readThirdBuffer=LL_SPI_ReceiveData8(SPI1);
+  
+    while (LL_SPI_IsActiveFlag_BSY(SPI1)==SET);
+    
+    GPIOB -> BSRR=LL_GPIO_PIN_0;
+   
+    secondThirdBuffer =(readSecondBuffer<<8) | (readThirdBuffer);
+   
+    return secondThirdBuffer;
+    
+  }
 
 
+uint16_t ReadSerialNo(uint8_t serialNoReg){
+   uint16_t receivedBytes;
+    receivedBytes= ReadFPGA(serialNoReg);
+   return receivedBytes;
+ }
 
+static void SetServoPWMValue(uint8_t servoNo, uint16_t value){
+    
+    int i;
+    if (servoNo > 8){
+      servoNo=0;
+     }
+    WriteFPGA(servoNo,value);//writing to pwm 0 for servo
+    for (i=0;i<1000000;i++){
+    } 
+    
+    
+  }
 
 
 /*static void WriteFPGA(){
