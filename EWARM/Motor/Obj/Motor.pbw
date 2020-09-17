@@ -102404,404 +102404,6 @@
     "scope": null
   },
   {
-    "ID": "c:stm32f0xx.h@1540@macro@__STM32F0xx_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0xx_H",
-    "location": {
-      "column": "9",
-      "line": "39",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0xx_H",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@1757@macro@STM32F0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "STM32F0",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "STM32F0",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5724@macro@__STM32F0_DEVICE_VERSION_MAIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_MAIN",
-    "location": {
-      "column": "9",
-      "line": "99",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_MAIN",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5801@macro@__STM32F0_DEVICE_VERSION_SUB1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_SUB1",
-    "location": {
-      "column": "9",
-      "line": "100",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_SUB1",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5878@macro@__STM32F0_DEVICE_VERSION_SUB2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_SUB2",
-    "location": {
-      "column": "9",
-      "line": "101",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_SUB2",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@5955@macro@__STM32F0_DEVICE_VERSION_RC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION_RC",
-    "location": {
-      "column": "9",
-      "line": "102",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION_RC",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@6037@macro@__STM32F0_DEVICE_VERSION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "__STM32F0_DEVICE_VERSION",
-    "location": {
-      "column": "9",
-      "line": "103",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "__STM32F0_DEVICE_VERSION",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FlagStatus",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FlagStatus@RESET",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "RESET",
-        "location": {
-          "column": "3",
-          "line": "161",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "RESET",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FlagStatus@SET",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SET",
-        "location": {
-          "column": "3",
-          "line": "162",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "SET",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "159",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@FlagStatus",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FlagStatus",
-    "location": {
-      "column": "3",
-      "line": "163",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "FlagStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@T@ITStatus",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FlagStatus",
-    "location": {
-      "column": "15",
-      "line": "163",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "ITStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@FunctionalState",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@FunctionalState@DISABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "DISABLE",
-        "location": {
-          "column": "3",
-          "line": "167",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "DISABLE",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@FunctionalState@ENABLE",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ENABLE",
-        "location": {
-          "column": "3",
-          "line": "168",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "ENABLE",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "165",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@FunctionalState",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum FunctionalState",
-    "location": {
-      "column": "3",
-      "line": "169",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "FunctionalState",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@7713@macro@IS_FUNCTIONAL_STATE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "IS_FUNCTIONAL_STATE",
-    "location": {
-      "column": "9",
-      "line": "170",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "IS_FUNCTIONAL_STATE",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@EA@ErrorStatus",
-    "What": "Enum",
-    "defdec": "Def",
-    "display": "",
-    "fields": [
-      {
-        "ID": "c:@EA@ErrorStatus@SUCCESS",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "SUCCESS",
-        "location": {
-          "column": "3",
-          "line": "174",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "SUCCESS",
-        "origin": "user_include",
-        "scope": null
-      },
-      {
-        "ID": "c:@EA@ErrorStatus@ERROR",
-        "What": "Enumerator",
-        "defdec": "Def",
-        "display": "ERROR",
-        "location": {
-          "column": "3",
-          "line": "175",
-          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-        },
-        "name": "ERROR",
-        "origin": "user_include",
-        "scope": null
-      }
-    ],
-    "location": {
-      "column": "9",
-      "line": "172",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@T@ErrorStatus",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "enum ErrorStatus",
-    "location": {
-      "column": "3",
-      "line": "176",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "ErrorStatus",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@7940@macro@SET_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "SET_BIT",
-    "location": {
-      "column": "9",
-      "line": "186",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "SET_BIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@7990@macro@CLEAR_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLEAR_BIT",
-    "location": {
-      "column": "9",
-      "line": "188",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "CLEAR_BIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8041@macro@READ_BIT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "READ_BIT",
-    "location": {
-      "column": "9",
-      "line": "190",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "READ_BIT",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8090@macro@CLEAR_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CLEAR_REG",
-    "location": {
-      "column": "9",
-      "line": "192",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "CLEAR_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8139@macro@WRITE_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "WRITE_REG",
-    "location": {
-      "column": "9",
-      "line": "194",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "WRITE_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8188@macro@READ_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "READ_REG",
-    "location": {
-      "column": "9",
-      "line": "196",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "READ_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
-    "ID": "c:stm32f0xx.h@8229@macro@MODIFY_REG",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "MODIFY_REG",
-    "location": {
-      "column": "9",
-      "line": "198",
-      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
-    },
-    "name": "MODIFY_REG",
-    "origin": "user_include",
-    "scope": null
-  },
-  {
     "ID": "c:stm32f0xx_ll_spi.h@894@macro@STM32F0xx_LL_SPI_H",
     "What": "MacroDef",
     "defdec": "Def",
@@ -109486,7 +109088,7 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3663@F@main@serialNo",
+    "ID": "c:main.c@3662@F@main@serialNo",
     "What": "Variable",
     "defdec": "Def",
     "display": "serialNo",
@@ -109506,7 +109108,7 @@
     "display": "void WriteFPGA(uint8_t, uint16_t)",
     "location": {
       "column": "14",
-      "line": "147",
+      "line": "157",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "WriteFPGA",
@@ -109514,13 +109116,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4164@F@WriteFPGA@regValue",
+    "ID": "c:main.c@4431@F@WriteFPGA@regValue",
     "What": "Variable",
     "defdec": "Def",
     "display": "regValue",
     "location": {
       "column": "13",
-      "line": "149",
+      "line": "159",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "regValue",
@@ -109528,13 +109130,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4187@F@WriteFPGA@secondReg",
+    "ID": "c:main.c@4454@F@WriteFPGA@secondReg",
     "What": "Variable",
     "defdec": "Def",
     "display": "secondReg",
     "location": {
       "column": "13",
-      "line": "150",
+      "line": "160",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "secondReg",
@@ -109542,13 +109144,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4211@F@WriteFPGA@thirdReg",
+    "ID": "c:main.c@4478@F@WriteFPGA@thirdReg",
     "What": "Variable",
     "defdec": "Def",
     "display": "thirdReg",
     "location": {
       "column": "13",
-      "line": "151",
+      "line": "161",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "thirdReg",
@@ -109562,7 +109164,7 @@
     "display": "uint16_t ReadFPGA(uint16_t)",
     "location": {
       "column": "11",
-      "line": "177",
+      "line": "187",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "ReadFPGA",
@@ -109570,13 +109172,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5266@F@ReadFPGA@readFirstBuffer",
+    "ID": "c:main.c@5533@F@ReadFPGA@readFirstBuffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "readFirstBuffer",
     "location": {
       "column": "13",
-      "line": "179",
+      "line": "189",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "readFirstBuffer",
@@ -109584,13 +109186,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5296@F@ReadFPGA@readSecondBuffer",
+    "ID": "c:main.c@5563@F@ReadFPGA@readSecondBuffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "readSecondBuffer",
     "location": {
       "column": "13",
-      "line": "180",
+      "line": "190",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "readSecondBuffer",
@@ -109598,13 +109200,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5327@F@ReadFPGA@readThirdBuffer",
+    "ID": "c:main.c@5594@F@ReadFPGA@readThirdBuffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "readThirdBuffer",
     "location": {
       "column": "13",
-      "line": "181",
+      "line": "191",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "readThirdBuffer",
@@ -109612,13 +109214,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5357@F@ReadFPGA@secondThirdBuffer",
+    "ID": "c:main.c@5624@F@ReadFPGA@secondThirdBuffer",
     "What": "Variable",
     "defdec": "Def",
     "display": "secondThirdBuffer",
     "location": {
       "column": "14",
-      "line": "182",
+      "line": "192",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "secondThirdBuffer",
@@ -109626,13 +109228,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5390@F@ReadFPGA@regValue",
+    "ID": "c:main.c@5657@F@ReadFPGA@regValue",
     "What": "Variable",
     "defdec": "Def",
     "display": "regValue",
     "location": {
       "column": "13",
-      "line": "183",
+      "line": "193",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "regValue",
@@ -109640,13 +109242,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5413@F@ReadFPGA@regValue1",
+    "ID": "c:main.c@5680@F@ReadFPGA@regValue1",
     "What": "Variable",
     "defdec": "Def",
     "display": "regValue1",
     "location": {
       "column": "13",
-      "line": "184",
+      "line": "194",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "regValue1",
@@ -109654,13 +109256,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@5437@F@ReadFPGA@regValue2",
+    "ID": "c:main.c@5704@F@ReadFPGA@regValue2",
     "What": "Variable",
     "defdec": "Def",
     "display": "regValue2",
     "location": {
       "column": "14",
-      "line": "185",
+      "line": "195",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "regValue2",
@@ -109674,7 +109276,7 @@
     "display": "uint16_t ReadSerialNo(uint8_t)",
     "location": {
       "column": "10",
-      "line": "216",
+      "line": "226",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "ReadSerialNo",
@@ -109682,13 +109284,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@6562@F@ReadSerialNo@receivedBytes",
+    "ID": "c:main.c@6829@F@ReadSerialNo@receivedBytes",
     "What": "Variable",
     "defdec": "Def",
     "display": "receivedBytes",
     "location": {
       "column": "13",
-      "line": "217",
+      "line": "227",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "receivedBytes",
@@ -109702,7 +109304,7 @@
     "display": "void SetServoPWMValue(uint8_t, uint16_t)",
     "location": {
       "column": "13",
-      "line": "222",
+      "line": "232",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SetServoPWMValue",
@@ -109710,13 +109312,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@6736@F@SetServoPWMValue@i",
+    "ID": "c:main.c@7003@F@SetServoPWMValue@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "9",
-      "line": "224",
+      "line": "234",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "i",
@@ -109730,7 +109332,7 @@
     "display": "void SetMotorPWMValue(uint8_t, uint8_t, uint16_t)",
     "location": {
       "column": "13",
-      "line": "255",
+      "line": "265",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SetMotorPWMValue",
@@ -109744,7 +109346,7 @@
     "display": "void SystemClock_Config(void)",
     "location": {
       "column": "6",
-      "line": "377",
+      "line": "387",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SystemClock_Config",
@@ -109758,7 +109360,7 @@
     "display": "void MX_SPI1_Init(void)",
     "location": {
       "column": "13",
-      "line": "416",
+      "line": "426",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_SPI1_Init",
@@ -109766,13 +109368,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11801@F@MX_SPI1_Init@SPI_InitStruct",
+    "ID": "c:main.c@12068@F@MX_SPI1_Init@SPI_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "SPI_InitStruct",
     "location": {
       "column": "22",
-      "line": "423",
+      "line": "433",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SPI_InitStruct",
@@ -109780,13 +109382,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@11847@F@MX_SPI1_Init@GPIO_InitStruct",
+    "ID": "c:main.c@12114@F@MX_SPI1_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "425",
+      "line": "435",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109800,7 +109402,7 @@
     "display": "void MX_SPI2_Init(void)",
     "location": {
       "column": "13",
-      "line": "498",
+      "line": "508",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_SPI2_Init",
@@ -109808,13 +109410,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14589@F@MX_SPI2_Init@SPI_InitStruct",
+    "ID": "c:main.c@14856@F@MX_SPI2_Init@SPI_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "SPI_InitStruct",
     "location": {
       "column": "22",
-      "line": "505",
+      "line": "515",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "SPI_InitStruct",
@@ -109822,13 +109424,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@14635@F@MX_SPI2_Init@GPIO_InitStruct",
+    "ID": "c:main.c@14902@F@MX_SPI2_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "507",
+      "line": "517",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109842,7 +109444,7 @@
     "display": "void MX_TIM1_Init(void)",
     "location": {
       "column": "13",
-      "line": "569",
+      "line": "579",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_TIM1_Init",
@@ -109850,13 +109452,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@16918@F@MX_TIM1_Init@TIM_InitStruct",
+    "ID": "c:main.c@17185@F@MX_TIM1_Init@TIM_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_InitStruct",
     "location": {
       "column": "22",
-      "line": "577",
+      "line": "587",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_InitStruct",
@@ -109864,13 +109466,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@16962@F@MX_TIM1_Init@TIM_OC_InitStruct",
+    "ID": "c:main.c@17229@F@MX_TIM1_Init@TIM_OC_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_OC_InitStruct",
     "location": {
       "column": "25",
-      "line": "578",
+      "line": "588",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_OC_InitStruct",
@@ -109878,13 +109480,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@17014@F@MX_TIM1_Init@GPIO_InitStruct",
+    "ID": "c:main.c@17281@F@MX_TIM1_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "580",
+      "line": "590",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109898,7 +109500,7 @@
     "display": "void MX_TIM3_Init(void)",
     "location": {
       "column": "13",
-      "line": "694",
+      "line": "704",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_TIM3_Init",
@@ -109906,13 +109508,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@21278@F@MX_TIM3_Init@TIM_InitStruct",
+    "ID": "c:main.c@21545@F@MX_TIM3_Init@TIM_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_InitStruct",
     "location": {
       "column": "22",
-      "line": "701",
+      "line": "711",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_InitStruct",
@@ -109920,13 +109522,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@21322@F@MX_TIM3_Init@TIM_OC_InitStruct",
+    "ID": "c:main.c@21589@F@MX_TIM3_Init@TIM_OC_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "TIM_OC_InitStruct",
     "location": {
       "column": "25",
-      "line": "702",
+      "line": "712",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "TIM_OC_InitStruct",
@@ -109934,13 +109536,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@21374@F@MX_TIM3_Init@GPIO_InitStruct",
+    "ID": "c:main.c@21641@F@MX_TIM3_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "704",
+      "line": "714",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109954,7 +109556,7 @@
     "display": "void MX_GPIO_Init(void)",
     "location": {
       "column": "13",
-      "line": "814",
+      "line": "824",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "MX_GPIO_Init",
@@ -109962,13 +109564,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@25422@F@MX_GPIO_Init@GPIO_InitStruct",
+    "ID": "c:main.c@25689@F@MX_GPIO_Init@GPIO_InitStruct",
     "What": "Variable",
     "defdec": "Def",
     "display": "GPIO_InitStruct",
     "location": {
       "column": "23",
-      "line": "816",
+      "line": "826",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "GPIO_InitStruct",
@@ -109982,7 +109584,7 @@
     "display": "void Error_Handler(void)",
     "location": {
       "column": "6",
-      "line": "1057",
+      "line": "1067",
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Core\\Src\\main.c"
     },
     "name": "Error_Handler",
@@ -116998,6 +116600,404 @@
       "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\STM32F0xx_HAL_Driver\\Inc\\stm32f0xx_ll_cortex.h"
     },
     "name": "LL_CPUID_GetRevision",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@1540@macro@__STM32F0xx_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0xx_H",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0xx_H",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@1757@macro@STM32F0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "STM32F0",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "STM32F0",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5724@macro@__STM32F0_DEVICE_VERSION_MAIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_MAIN",
+    "location": {
+      "column": "9",
+      "line": "99",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_MAIN",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5801@macro@__STM32F0_DEVICE_VERSION_SUB1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_SUB1",
+    "location": {
+      "column": "9",
+      "line": "100",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_SUB1",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5878@macro@__STM32F0_DEVICE_VERSION_SUB2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_SUB2",
+    "location": {
+      "column": "9",
+      "line": "101",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_SUB2",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@5955@macro@__STM32F0_DEVICE_VERSION_RC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION_RC",
+    "location": {
+      "column": "9",
+      "line": "102",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION_RC",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@6037@macro@__STM32F0_DEVICE_VERSION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__STM32F0_DEVICE_VERSION",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "__STM32F0_DEVICE_VERSION",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FlagStatus",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FlagStatus@RESET",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "RESET",
+        "location": {
+          "column": "3",
+          "line": "161",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "RESET",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FlagStatus@SET",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SET",
+        "location": {
+          "column": "3",
+          "line": "162",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "SET",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "159",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@FlagStatus",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FlagStatus",
+    "location": {
+      "column": "3",
+      "line": "163",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "FlagStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@T@ITStatus",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FlagStatus",
+    "location": {
+      "column": "15",
+      "line": "163",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "ITStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@FunctionalState",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@FunctionalState@DISABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "DISABLE",
+        "location": {
+          "column": "3",
+          "line": "167",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "DISABLE",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@FunctionalState@ENABLE",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ENABLE",
+        "location": {
+          "column": "3",
+          "line": "168",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "ENABLE",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "165",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@FunctionalState",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum FunctionalState",
+    "location": {
+      "column": "3",
+      "line": "169",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "FunctionalState",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@7713@macro@IS_FUNCTIONAL_STATE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "IS_FUNCTIONAL_STATE",
+    "location": {
+      "column": "9",
+      "line": "170",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "IS_FUNCTIONAL_STATE",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@EA@ErrorStatus",
+    "What": "Enum",
+    "defdec": "Def",
+    "display": "",
+    "fields": [
+      {
+        "ID": "c:@EA@ErrorStatus@SUCCESS",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "SUCCESS",
+        "location": {
+          "column": "3",
+          "line": "174",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "SUCCESS",
+        "origin": "user_include",
+        "scope": null
+      },
+      {
+        "ID": "c:@EA@ErrorStatus@ERROR",
+        "What": "Enumerator",
+        "defdec": "Def",
+        "display": "ERROR",
+        "location": {
+          "column": "3",
+          "line": "175",
+          "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+        },
+        "name": "ERROR",
+        "origin": "user_include",
+        "scope": null
+      }
+    ],
+    "location": {
+      "column": "9",
+      "line": "172",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@ErrorStatus",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "enum ErrorStatus",
+    "location": {
+      "column": "3",
+      "line": "176",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "ErrorStatus",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@7940@macro@SET_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SET_BIT",
+    "location": {
+      "column": "9",
+      "line": "186",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "SET_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@7990@macro@CLEAR_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_BIT",
+    "location": {
+      "column": "9",
+      "line": "188",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "CLEAR_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8041@macro@READ_BIT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "READ_BIT",
+    "location": {
+      "column": "9",
+      "line": "190",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "READ_BIT",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8090@macro@CLEAR_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CLEAR_REG",
+    "location": {
+      "column": "9",
+      "line": "192",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "CLEAR_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8139@macro@WRITE_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "WRITE_REG",
+    "location": {
+      "column": "9",
+      "line": "194",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "WRITE_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8188@macro@READ_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "READ_REG",
+    "location": {
+      "column": "9",
+      "line": "196",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "READ_REG",
+    "origin": "user_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stm32f0xx.h@8229@macro@MODIFY_REG",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "MODIFY_REG",
+    "location": {
+      "column": "9",
+      "line": "198",
+      "path": "C:\\Users\\kussbandara\\Documents\\Motor\\Drivers\\CMSIS\\Device\\ST\\STM32F0xx\\Include\\stm32f0xx.h"
+    },
+    "name": "MODIFY_REG",
     "origin": "user_include",
     "scope": null
   },

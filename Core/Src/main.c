@@ -120,7 +120,7 @@ int main(void)
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
   
-   //SetMotorPWMValue(0,1,125);
+    SetMotorPWMValue(0,1,125);
     
    
     uint16_t serialNo = ReadSerialNo(0x0F);
@@ -132,6 +132,16 @@ int main(void)
     SetServoPWMValue(5,35000);
     SetServoPWMValue(6,15000);
     SetServoPWMValue(7,20000);
+    SetMotorPWMValue(0,1,400);
+    SetMotorPWMValue(1,0,300);
+    SetMotorPWMValue(2,1,100);
+    SetMotorPWMValue(3,0,400);
+    SetMotorPWMValue(4,1,300);
+    SetMotorPWMValue(5,0,100);
+    SetMotorPWMValue(6,1,600);
+    SetMotorPWMValue(7,0,700);
+    
+    
   while (1)
   {
     

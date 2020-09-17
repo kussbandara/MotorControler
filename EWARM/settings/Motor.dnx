@@ -18,7 +18,7 @@
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </StLinkDriver>
     <DebugChecksum>
-        <Checksum>2866668114</Checksum>
+        <Checksum>2518421514</Checksum>
     </DebugChecksum>
     <Exceptions>
         <StopOnUncaught>_ 0</StopOnUncaught>
@@ -41,7 +41,7 @@
         <Bp0>_ 1 "EMUL_DATA" "LL_TIM_OC_DisableFast" 0 0 0 0 4294967295</Bp0>
         <Bp1>_ 1 "EMUL_DATA" "LL_TIM_OC_DisableFast" 0 0 0 0 4294967295</Bp1>
         <Bp2>_ 0 "EMUL_DATA" "SetMotorPWMValue" 0 0 0 0 4294967295</Bp2>
-        <Bp3>_ 1 "EMUL_DATA" "WriteFPGA" 0 0 0 0 4294967295</Bp3>
+        <Bp3>_ 0 "EMUL_DATA" "WriteFPGA" 0 0 0 0 4294967295</Bp3>
         <Bp4>_ 0 "EMUL_DATA_LOG" "SetServoPWMValue" 0 0</Bp4>
         <Count>5</Count>
     </Breakpoints2>
