@@ -1,0 +1,46 @@
+# ##############################################################################
+
+# iCEcube PCF
+
+# Version:            2017.08.27940
+
+# File Generated:     Sep 18 2020 18:19:39
+
+# Family & Device:    iCE5LP1K
+
+# Package:            SG48
+
+# ##############################################################################
+
+###IOSet List 30
+set_io PWM7 38
+set_io ch1_B 12 -pullup yes
+set_io ch4_A 2 -pullup yes
+set_io ch5_A 47 -pullup yes
+set_io CLK 35
+set_io PWM4 31
+set_io SCK 18
+set_io ch0_A 3 -pullup yes
+set_io ch1_A 13 -pullup yes
+set_io ch3_B 4 -pullup yes
+set_io ch6_A 32 -pullup yes
+set_io ch7_A 26 -pullup yes
+set_io PWM5 34
+set_io ch2_A 11 -pullup yes
+set_io ch6_B 28 -pullup yes
+set_io MISO 19
+set_io PWM2 25
+set_io SSEL 6
+set_io ch2_B 10 -pullup yes
+set_io PWM3 27
+set_io ch7_B 23 -pullup yes
+set_io MOSI 21
+set_io PWM0 43
+set_io RST 37 -pullup yes
+set_io ch4_B 48 -pullup yes
+set_io PWM1 42
+set_io ch0_B 45 -pullup yes
+set_io ch3_A 9 -pullup yes
+set_io PWM6 36
+set_io ch5_B 46 -pullup yes
+

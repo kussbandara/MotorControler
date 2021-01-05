@@ -1,0 +1,23 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled. (Command "set_option -fix_gated_and_generated_clocks 1" in the project file.)
+@N: MT206 |Auto Constrain mode is enabled
+@N: MF179 :"c:\lscc\icecube2.2017.08\fpgamotor\pwm.v":43:10:43:51|Found 16 by 16 bit equality operator ('==') un1_PWMPulseWidthCount (in view: work.PWM(verilog))
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[5] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[6] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[7] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[3] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[0] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[1] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[2] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":191:1:191:6|Replicating instance pwmWrite[4] (in view: work.SPI(verilog)) with 20 loads 1 time to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":126:1:126:6|Replicating instance data_received[2] (in view: work.SPI(verilog)) with 51 loads 3 times to improve timing.
+@N: FX271 :"c:\lscc\icecube2.2017.08\fpgamotor\spi.v":126:1:126:6|Replicating instance data_received[0] (in view: work.SPI(verilog)) with 51 loads 3 times to improve timing.
+@N: FX1017 :|SB_GB inserted on the net RST_c_i.
+@N: FX1017 :"c:\lscc\icecube2.2017.08\fpgamotor\pwm.v":16:1:16:6|SB_GB inserted on the net PWMInstance0.N_42.
+@N: FX1017 :|SB_GB inserted on the net N_1187.
+@N: FX1017 :|SB_GB inserted on the net N_45_0.
+@N: BW103 |The default time unit for the Synopsys Constraint File (SDC or FDC) is 1ns.
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: FX1056 |Writing EDF file: C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.edf
+@N: MT320 |This timing report is an estimate of place and route data. For final timing results, use the FPGA vendor place and route report.
+@N: MT322 |Clock constraints include only register-to-register paths associated with each individual clock.

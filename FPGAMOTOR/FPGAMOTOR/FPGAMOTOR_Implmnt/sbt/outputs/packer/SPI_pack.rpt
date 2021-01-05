@@ -1,0 +1,129 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Sep 18 2020 18:20:46
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 1 seconds
+
+Device Info:
+------------
+    Device Family: iCE5LP
+    Device:        iCE5LP1K
+    Package:       SG48
+
+Design statistics:
+------------------
+    FFs:                  573
+    LUTs:                 1064
+    RAMs:                 0
+    IOBs:                 30
+    GBs:                  5
+    PLLs:                 0
+    Warm Boots:           0
+    SPIs:                 0
+    I2Cs:                 0
+    HFOSCs:               0
+    LFOSCs:               0
+    RGB_DRVs:             0
+    IR_DRVs:              0
+    LED_DRV_CURs:         0
+    LEDD_IPs:             0
+    DSPs:                 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 1136/1100
+        Combinational Logic Cells: 563      out of   1100      51.1818%
+        Sequential Logic Cells:    573      out of   1100      52.0909%
+        Logic Tiles:               225      out of   440       51.1364%
+    Registers: 
+        Logic Registers:           573      out of   1100      52.0909%
+        IO Registers:              0        out of   480       0
+    Block RAMs:                    0        out of   16        0%
+    Warm Boots:                    0        out of   1         0%
+    SPIs:                          0        out of   1         0%
+    I2Cs:                          0        out of   1         0%
+    HFOSCs:                        0        out of   1         0%
+    LFOSCs:                        0        out of   1         0%
+    RGB_DRVs:                      0        out of   1         0%
+    IR_DRVs:                       0        out of   1         0%
+    LED_DRV_CURs:                  0        out of   1         0%
+    LEDD_IPs:                      0        out of   1         0%
+    DSPs:                          0        out of   2         0%
+    Pins:
+        Input Pins:                21       out of   39        53.8462%
+        Output Pins:               9        out of   39        23.0769%
+        InOut Pins:                0        out of   39        0%
+    Global Buffers:                5        out of   8         62.5%
+    PLLs:                          0        out of   1         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 0        out of   0         0%
+    Bank 1: 0        out of   0         0%
+    Bank 0: 14       out of   17        82.3529%
+    Bank 2: 16       out of   22        72.7273%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    2           Input      SB_LVCMOS    Yes      2        Simple Input                  ch4_A  
+    3           Input      SB_LVCMOS    Yes      2        Simple Input                  ch0_A  
+    4           Input      SB_LVCMOS    Yes      2        Simple Input                  ch3_B  
+    6           Input      SB_LVCMOS    No       2        Simple Input                  SSEL   
+    9           Input      SB_LVCMOS    Yes      2        Simple Input                  ch3_A  
+    10          Input      SB_LVCMOS    Yes      2        Simple Input                  ch2_B  
+    11          Input      SB_LVCMOS    Yes      2        Simple Input                  ch2_A  
+    12          Input      SB_LVCMOS    Yes      2        Simple Input                  ch1_B  
+    13          Input      SB_LVCMOS    Yes      2        Simple Input                  ch1_A  
+    18          Input      SB_LVCMOS    No       2        Simple Input                  SCK    
+    21          Input      SB_LVCMOS    No       2        Simple Input                  MOSI   
+    23          Input      SB_LVCMOS    Yes      0        Simple Input                  ch7_B  
+    26          Input      SB_LVCMOS    Yes      0        Simple Input                  ch7_A  
+    28          Input      SB_LVCMOS    Yes      0        Simple Input                  ch6_B  
+    32          Input      SB_LVCMOS    Yes      0        Simple Input                  ch6_A  
+    35          Input      SB_LVCMOS    No       0        Simple Input                  CLK    
+    37          Input      SB_LVCMOS    Yes      0        Simple Input                  RST    
+    45          Input      SB_LVCMOS    Yes      2        Simple Input                  ch0_B  
+    46          Input      SB_LVCMOS    Yes      2        Simple Input                  ch5_B  
+    47          Input      SB_LVCMOS    Yes      2        Simple Input                  ch5_A  
+    48          Input      SB_LVCMOS    Yes      2        Simple Input                  ch4_B  
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                   Signal Name
+    ----------  ---------  -----------  -------  -------  -----------                   -----------
+    19          Output     SB_LVCMOS    No       2        Output Tristatable by Enable  MISO   
+    25          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM2   
+    27          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM3   
+    31          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM4   
+    34          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM5   
+    36          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM6   
+    38          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM7   
+    42          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM1   
+    43          Output     SB_LVCMOS    No       0        Output Tristatable by Enable  PWM0   
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name          
+    -------------  -------  ---------  ------  -----------          
+    2              0                   30      N_1187_g             
+    5              2                   30      N_45_0_g             
+    6              2                   289     RST_c_i_g            
+    4              0                   136     PWMInstance0_N_42_g  
+    3              0                   564     myclk                

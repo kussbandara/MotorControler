@@ -1,0 +1,1 @@
+@W: MT529 :"c:\lscc\icecube2.2017.08\fpgamotor\quadraturedecoder.v":32:1:32:6|Found inferred clock SPI|CLK which controls 550 sequential elements including QuadInstance0.Quad[15:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 

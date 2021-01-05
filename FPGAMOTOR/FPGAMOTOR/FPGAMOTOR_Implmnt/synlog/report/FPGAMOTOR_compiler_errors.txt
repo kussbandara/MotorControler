@@ -1,0 +1,2 @@
+@E: CG308 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\SPI.v":66:19:66:31|Duplicate instance name QuadInstance2
+

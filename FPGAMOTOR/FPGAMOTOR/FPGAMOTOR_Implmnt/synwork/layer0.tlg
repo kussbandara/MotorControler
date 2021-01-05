@@ -1,0 +1,11 @@
+Selecting top level module SPI
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v":578:7:578:11|Synthesizing module SB_GB in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\QuadratureDecoder.v":2:7:2:23|Synthesizing module QuadratureDecoder in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\PWM.v":1:7:1:9|Synthesizing module PWM in library work.
+
+@N: CG364 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\SPI.v":1:7:1:9|Synthesizing module SPI in library work.
+
+@W: CG133 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\SPI.v":121:5:121:8|Object test is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\SPI.v":122:5:122:17|Object byte_received is declared but not assigned. Either assign a value or remove the declaration.

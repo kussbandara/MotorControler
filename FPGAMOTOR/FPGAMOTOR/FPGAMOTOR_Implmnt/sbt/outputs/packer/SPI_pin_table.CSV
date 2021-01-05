@@ -1,0 +1,70 @@
+* ******************************************************************************
+
+* iCEcube Pin Table
+
+* Version:            2017.08.27940
+
+* Build Date:         Sep 11 2017 16:52:36
+
+* File Generated:     Sep 18 2020 18:20:45
+
+* Purpose:            Detailed IO and package pin info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Device, iCE5LP1K
+Package, SG48
+
+Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, Pull Up, IO Function, IO Bank, Glitch Logic 
+---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
+1, VCCIO_2, not used, , , , , , bottomBank
+2, PIO, ch4_A, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+3, PIO, ch0_A, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+4, PIO, ch3_B, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+5, VCC, not used, , , , , , UnknownBank
+6, PIO, SSEL, Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+7, CDONE, not used, , , , , , bottomBank
+8, CRESET_B, not used, , , , , , bottomBank
+9, PIO, ch3_A, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+10, PIO, ch2_B, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+11, PIO, ch2_A, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+12, PIO, ch1_B, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+13, PIO, ch1_A, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+14, SPI_SO, not used, , , , , , bottomBank
+15, SPI_SCK, not used, , , , , , bottomBank
+16, SPI_SS_B, not used, , , , , , bottomBank
+17, SPI_SI, not used, , , , , , bottomBank
+18, PIO, SCK, Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+19, PIO, MISO, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, bottomBank, MISO_obufLegalizeSB_DFF(20:1:0) -> 19(21:0:1)
+20, PIO_GBIN, not used, , , , , , bottomBank
+21, PIO, MOSI, Input, , SB_LVCMOS, No Pull Up, Simple Input, bottomBank
+22, VDDIO_SPI, not used, , , , , , bottomBank
+23, PIO, ch7_B, Input, , SB_LVCMOS, Pull Up, Simple Input, topBank
+24, VPP, not used, , , , , , topBank
+25, PIO, PWM2, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM2_obufLegalizeSB_DFF(18:20:0) -> 25(19:21:1)
+26, PIO, ch7_A, Input, , SB_LVCMOS, Pull Up, Simple Input, topBank
+27, PIO, PWM3, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM3_obufLegalizeSB_DFF(18:20:1) -> 27(18:21:1)
+28, PIO, ch6_B, Input, , SB_LVCMOS, Pull Up, Simple Input, topBank
+29, AVDD_TOP, not used, , , , , , UnknownBank
+30, VCC, not used, , , , , , UnknownBank
+31, PIO, PWM4, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM4_obufLegalizeSB_DFF(15:20:0) -> 31(16:21:1)
+32, PIO, ch6_A, Input, , SB_LVCMOS, Pull Up, Simple Input, topBank
+33, VCCIO_0, not used, , , , , , topBank
+34, PIO, PWM5, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM5_obufLegalizeSB_DFF(12:20:0) -> 34(13:21:1)
+35, PIO_GBIN, CLK, Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+36, PIO, PWM6, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM6_obufLegalizeSB_DFF(8:20:2) -> 36(9:21:1)
+37, PIO_GBIN, RST, Input, , SB_LVCMOS, Pull Up, Simple Input, topBank
+38, PIO, PWM7, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM7_obufLegalizeSB_DFF(8:20:3) -> 38(8:21:1)
+39, PIO_RGB, not used, , , , , , topBank
+40, PIO_RGB, not used, , , , , , topBank
+41, PIO_RGB, not used, , , , , , topBank
+42, PIO, PWM1, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM1_obufLegalizeSB_DFF(8:20:1) -> 42(8:21:0)
+43, PIO, PWM0, Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank, PWM0_obufLegalizeSB_DFF(8:20:0) -> 43(9:21:0)
+44, PIO_GBIN, not used, , , , , , bottomBank
+45, PIO, ch0_B, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+46, PIO, ch5_B, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+47, PIO, ch5_A, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+48, PIO, ch4_B, Input, , SB_LVCMOS, Pull Up, Simple Input, bottomBank
+Total Number of Used Pins, 30

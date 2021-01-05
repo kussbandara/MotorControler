@@ -1,0 +1,3 @@
+@W: CG133 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\SPI.v":121:5:121:8|Object test is declared but not assigned. Either assign a value or remove the declaration.
+@W: CG133 :"C:\lscc\iCEcube2.2017.08\FPGAMOTOR\SPI.v":122:5:122:17|Object byte_received is declared but not assigned. Either assign a value or remove the declaration.
+

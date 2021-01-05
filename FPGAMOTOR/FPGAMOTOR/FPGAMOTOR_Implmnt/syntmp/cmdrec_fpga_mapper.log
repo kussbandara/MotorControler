@@ -1,0 +1,14 @@
+C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt   -part iCE5LP1K  -package SG48    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\synlog\report\FPGAMOTOR_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.edf   -autoconstraint  -freq 1.000   C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\synwork\FPGAMOTOR_prem.srd  -sap  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.sap  -otap  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.tap  -omap  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.map  -devicelib  C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v  -sap  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.sap  -ologparam  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\syntmp\FPGAMOTOR.plg  -osyn  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.srm  -prjdir  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\  -prjname  FPGAMOTOR_syn  -log  C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\synlog\FPGAMOTOR_fpga_mapper.srr 
+rc:1 success:1 runtime:6
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.edf|io:o|time:1600302559|size:957463|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\synwork\FPGAMOTOR_prem.srd|io:i|time:1600302552|size:13875|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.sap|io:o|time:1600302553|size:1954|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.tap|io:o|time:0|size:0|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.map|io:o|time:1600302559|size:28|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\lib\generic\sb_ice40.v|io:i|time:1591472261|size:224837|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.sap|io:o|time:1600302553|size:1954|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\syntmp\FPGAMOTOR.plg|io:o|time:1600302559|size:430|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\FPGAMOTOR.srm|io:o|time:1600302558|size:30514|exec:0
+file:C:\lscc\iCEcube2.2017.08\FPGAMOTOR\FPGAMOTOR\FPGAMOTOR_Implmnt\synlog\FPGAMOTOR_fpga_mapper.srr|io:o|time:1600302559|size:50468|exec:0
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin\m_generic.exe|io:i|time:1591472256|size:17853440|exec:1
+file:C:\lscc\iCEcube2.2017.08\synpbase\bin64\m_generic.exe|io:i|time:1591472258|size:32355840|exec:1
