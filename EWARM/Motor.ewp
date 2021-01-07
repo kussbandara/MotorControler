@@ -1083,6 +1083,9 @@
             <group>
                 <name>Core</name>
                 <file>
+                    <name>$PROJ_DIR$\..\Core\Src\bno055.c</name>
+                </file>
+                <file>
                     <name>$PROJ_DIR$\..\Core\Src\main.c</name>
                 </file>
                 <file>
@@ -1109,6 +1112,9 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_gpio.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_i2c.c</name>
             </file>
             <file>
                 <name>$PROJ_DIR$\..\Drivers\STM32F0xx_HAL_Driver\Src\stm32f0xx_ll_pwr.c</name>

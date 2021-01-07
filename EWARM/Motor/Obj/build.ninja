@@ -20,21 +20,23 @@ rule browsedata
 
 
 #Build steps
+build bno055.pbi : index bno055.xcl
 build main.pbi : index main.xcl
 build stm32f0xx_it.pbi : index stm32f0xx_it.xcl
 build system_stm32f0xx.pbi : index system_stm32f0xx.xcl
 build stm32f0xx_ll_dma.pbi : index stm32f0xx_ll_dma.xcl
 build stm32f0xx_ll_exti.pbi : index stm32f0xx_ll_exti.xcl
 build stm32f0xx_ll_gpio.pbi : index stm32f0xx_ll_gpio.xcl
+build stm32f0xx_ll_i2c.pbi : index stm32f0xx_ll_i2c.xcl
 build stm32f0xx_ll_pwr.pbi : index stm32f0xx_ll_pwr.xcl
 build stm32f0xx_ll_rcc.pbi : index stm32f0xx_ll_rcc.xcl
 build stm32f0xx_ll_spi.pbi : index stm32f0xx_ll_spi.xcl
 build stm32f0xx_ll_tim.pbi : index stm32f0xx_ll_tim.xcl
 build stm32f0xx_ll_utils.pbi : index stm32f0xx_ll_utils.xcl
-build Motor_part0.pbi : link main.pbi stm32f0xx_it.pbi system_stm32f0xx.pbi
-build Motor_part1.pbi : link stm32f0xx_ll_dma.pbi stm32f0xx_ll_exti.pbi stm32f0xx_ll_gpio.pbi
-build Motor_part2.pbi : link stm32f0xx_ll_pwr.pbi stm32f0xx_ll_rcc.pbi stm32f0xx_ll_spi.pbi
-build Motor_part3.pbi : link stm32f0xx_ll_tim.pbi stm32f0xx_ll_utils.pbi
+build Motor_part0.pbi : link bno055.pbi main.pbi stm32f0xx_it.pbi system_stm32f0xx.pbi
+build Motor_part1.pbi : link stm32f0xx_ll_dma.pbi stm32f0xx_ll_exti.pbi stm32f0xx_ll_gpio.pbi stm32f0xx_ll_i2c.pbi
+build Motor_part2.pbi : link stm32f0xx_ll_pwr.pbi stm32f0xx_ll_rcc.pbi stm32f0xx_ll_spi.pbi stm32f0xx_ll_tim.pbi
+build Motor_part3.pbi : link stm32f0xx_ll_utils.pbi
 build Motor.pbd : link Motor_part0.pbi Motor_part1.pbi Motor_part2.pbi Motor_part3.pbi
 build Motor.pbw : browsedata Motor.pbd
 

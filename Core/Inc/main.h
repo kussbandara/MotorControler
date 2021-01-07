@@ -40,7 +40,9 @@ extern "C" {
 #include "stm32f0xx_ll_spi.h"
 #include "stm32f0xx_ll_tim.h"
 #include "stm32f0xx_ll_gpio.h"
+#include "stm32f0xx_ll_i2c.h"
 
+  
 #if defined(USE_FULL_ASSERT)
 #include "stm32_assert.h"
 #endif /* USE_FULL_ASSERT */
@@ -69,7 +71,7 @@ extern "C" {
 void Error_Handler(void);
 
 /* USER CODE BEGIN EFP */
-
+void delayMS(uint16_t);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
